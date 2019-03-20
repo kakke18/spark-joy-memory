@@ -1,7 +1,5 @@
-require('dotenv').config()
-T
-const host = process.env.HOST
-const port = process.env.PORT
+const host = "http//localhost"
+const port = 3001
 
 const testBtn1 = document.getElementById('test1-btn')
 const testBtn2 = document.getElementById('test2-btn')

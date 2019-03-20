@@ -4,10 +4,8 @@ jsonからAjaxで読み込み、描画
 
 ## Prepare
 ```
-cp .env.example .env
-.envを書き換える
 npm install
-.envのHOSTとjson-server.jsonのportを合わせる
+app.jsのportとjson-server.jsonのportを合わせる
 json-server db.json
 ```
 

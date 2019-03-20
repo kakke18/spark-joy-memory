@@ -29,8 +29,8 @@
         "bunch_score": 85
     },
     "test3":{
-        "bunch_score_sum": 100,
-        "user_score_sum": 10,
+        "bunch_score_sum": 200,
+        "user_score_sum": 160,
         "bunch_scores":[
             {
                 "date": "2019-01",
@@ -41,7 +41,19 @@
                 "score": 30
             },
             {
+                "date": "2019-03",
+                "score": 50
+            },
+            {
+                "date": "2019-04",
+                "score": 20
+            },
+            {
                 "date": "2019-05",
+                "score": 30
+            },
+            {
+                "date": "2019-06",
                 "score": 50
             }
         ],
@@ -55,7 +67,19 @@
                 "score": 17
             },
             {
+                "date": "2019-03",
+                "score": 60
+            },
+            {
+                "date": "2019-04",
+                "score": 10
+            },
+            {
                 "date": "2019-05",
+                "score": 13
+            },
+            {
+                "date": "2019-06",
                 "score": 60
             }
         ]

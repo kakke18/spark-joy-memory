@@ -1,7 +1,7 @@
 {
-  "name": "spark-joy-admin",
+  "name": "spark-joy-memory",
   "version": "1.0.0",
-  "description": "spark-joy-admin === jsonからAjaxで読み込み、描画",
+  "description": "spark-joy-memory === jsonからAjaxで読み込み、描画",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

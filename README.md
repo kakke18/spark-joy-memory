@@ -2,6 +2,19 @@ spark-joy-memory
 ===
 jsonからAjaxで読み込み、描画
 
+## tests
+### test1
+全てのバンチ戦
+
+### test2
+バンチ戦のポイントのグラフ
+
+### test3
+バンチ、ユーザ毎のスコアの推移のグラフ
+
+### test4
+バンチ毎のユーザ一覧
+
 ## Prepare
 ```
 npm install

@@ -2,7 +2,7 @@ spark-joy-memory
 ===
 jsonからAjaxで読み込み、描画
 
-## tests
+## Tests
 ### test1
 全てのバンチ戦
 

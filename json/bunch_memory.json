@@ -1,0 +1,32 @@
+{
+    "bunch_score_sum": 100,
+    "user_score_sum": 10,
+    "bunch_scores":[
+        {
+            "date": "2019-01",
+            "score": 20
+        },
+        {
+            "date": "2019-02",
+            "score": 30
+        },
+        {
+            "date": "2019-05",
+            "score": 50
+        }
+    ],
+    "user_scores":[
+        {
+            "date": "2019-01",
+            "score": 10
+        },
+        {
+            "date": "2019-02",
+            "score": 17
+        },
+        {
+            "date": "2019-05",
+            "score": 60
+        }
+    ]
+}

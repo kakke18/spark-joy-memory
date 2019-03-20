@@ -18,12 +18,12 @@
     ],
     "test2": {
         "user_points": {
-            "laugh_stg": 1,
+            "laugh_stg": 0.5,
             "rare_encount_point": 2,
-            "taken_picture_with_many_people_point": 3,
-            "take_good_picture_point": 4,
+            "taken_picture_with_many_people_point": 10,
+            "take_good_picture_point": 5,
             "between_product_interact_point": 5,
-            "diversity_point": 6
+            "diversity_point": 5
         },
         "user_score": 80,
         "bunch_score": 85

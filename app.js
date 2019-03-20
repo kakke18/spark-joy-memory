@@ -57,6 +57,8 @@ testBtn4.addEventListener('click', () => {
     axios.get(host + ':' + port + '/test4')
     .then((res) => {
       console.log(res.data)
+      removeAllChildren(mainContainer)
+      appendUserList(res.data)
     })
     .catch((err) => {
       console.error(err)
@@ -205,4 +207,15 @@ const createLineChart = (canvas, bunch_scores, user_scores) => {
       }
     }
   })
+}
+
+const appendUserList = (data) => {
+  for (let i = 0; i < data.users.length; i++) {
+    const li = document.createElement('li')
+    const prefix = data.users[i].id === data.leader_id ? '◎' : ' '
+    li.innerText = prefix + data.users[i].id + ': ' + data.users[i].name
+    const ul = document.createElement('ul')
+    ul.appendChild(li)
+    mainContainer.appendChild(ul)
+  }
 }
